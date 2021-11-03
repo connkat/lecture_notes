@@ -11,7 +11,7 @@ Hello, everyone! Today we got to take a dive into React components! We touched o
 - [x] components
 - [x] closures, a review
 - [x] state
-- [ ] props
+- [x] props
 
 ## What is React?
 - framework (front-end framework)
