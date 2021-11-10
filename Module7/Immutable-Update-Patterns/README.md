@@ -112,6 +112,6 @@ The `action` imported is meant to simulate a function, so we can use it to pass 
 
 
 ### Useful Links
-[Getters and Setters](https://www.programiz.com/javascript/getter-setter)
-[The Virtual DOM](https://www.codecademy.com/articles/react-virtual-dom)
-[Storybook example](https://next--storybookjs.netlify.app/official-storybook/)
+- [Getters and Setters](https://www.programiz.com/javascript/getter-setter)
+- [The Virtual DOM](https://www.codecademy.com/articles/react-virtual-dom)
+- [Storybook example](https://next--storybookjs.netlify.app/official-storybook/)
