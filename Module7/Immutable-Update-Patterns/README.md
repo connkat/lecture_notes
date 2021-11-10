@@ -5,11 +5,11 @@ Hello, everyone! Now that you have spent some time with React, I'm sure you have
 - [notes](https://github.com/connkat/lecture_notes/tree/master/Module7/Immutable-Update-Patterns)
 
 ### TODO
-[x] Thoughts on React so far
-[x] What is state?
-[x] Immutability
-[x] Props
-[x] Storybook
+- [x] Thoughts on React so far
+- [x] What is state?
+- [x] Immutability
+- [x] Props
+- [x] Storybook
 
 
 ## Thoughts on React so far
@@ -112,6 +112,6 @@ The `action` imported is meant to simulate a function, so we can use it to pass 
 
 
 ### Useful Links
-(Getters and Setters)[https://www.programiz.com/javascript/getter-setter]
-(The Virtual DOM)[https://www.codecademy.com/articles/react-virtual-dom]
-(Storybook example)[https://next--storybookjs.netlify.app/official-storybook/]
+[Getters and Setters](https://www.programiz.com/javascript/getter-setter)
+[The Virtual DOM](https://www.codecademy.com/articles/react-virtual-dom)
+[Storybook example](https://next--storybookjs.netlify.app/official-storybook/)
