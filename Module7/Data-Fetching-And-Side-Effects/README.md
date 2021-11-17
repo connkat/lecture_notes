@@ -130,8 +130,8 @@ useEffect(() => {
 
 ## Helpful Links
 
-[React Hook Rules](https://reactjs.org/docs/hooks-rules.html)
-[Wikipedia: Side Effect](<https://en.wikipedia.org/wiki/Side_effect_(computer_science)>)
-[useEffectFlow Slide](https://docs.google.com/presentation/d/1OasEv9j7gNeECgEZTyqWlyyujXn52NMZqfbzMOB4_ws/edit#slide=id.g193b6ff73d_0_33)
-[React Developer Tools Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-[useEffect--React Docs](https://reactjs.org/docs/hooks-effect.html)
+- [React Hook Rules](https://reactjs.org/docs/hooks-rules.html)
+- [Wikipedia: Side Effect](<https://en.wikipedia.org/wiki/Side_effect_(computer_science)>)
+- [useEffectFlow Slide](https://docs.google.com/presentation/d/1OasEv9j7gNeECgEZTyqWlyyujXn52NMZqfbzMOB4_ws/edit#slide=id.g193b6ff73d_0_33)
+- [React Developer Tools Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+- [useEffect--React Docs](https://reactjs.org/docs/hooks-effect.html)
