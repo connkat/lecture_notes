@@ -1,5 +1,8 @@
 # Module7W18 - Data Fetching and Other Side Effects
 
+- [lecture recording](https://vimeo.com/646753851/040c5073d4)
+- [notes](https://github.com/connkat/lecture_notes/edit/master/Module7/Data-Fetching-And-Side-Effects)
+
 ## TODO
 
 - [x] Why do we use components?
@@ -80,24 +83,6 @@ const MyComponent = (props) => {
 };
 ```
 
-### Dependencies
-
-- The second argument to useEffect is a dependency array that lets you specify when you want the hook to run
-- The hook will run again anytime the value of a dependency changes
-- **NOTE**: It is possible to get stuck in an infinite loop if the effect hook updates a value in the dependency array
-
-```
-// will run every time the value of user.firstName changes
-useEffect(() => {
-  document.title = `${user.firstName}'s Home Page`;
-}, [user.firstName]);
-
-// infinite loop because it runs every time count gets updated
-useEffect(() => {
-  setCount(count + 1);
-}, [count]);
-```
-
 ### Cleanup
 
 - Sometimes side effects need to be cleaned up (eg. socket connections terminated)
@@ -122,16 +107,39 @@ useEffect(() => {
 ```
 
 ### useEffect Flow
-
+- [useEffectFlow Slide](https://docs.google.com/presentation/d/1OasEv9j7gNeECgEZTyqWlyyujXn52NMZqfbzMOB4_ws/edit#slide=id.g193b6ff73d_0_33)
 1. React turns your JSX into HTML (client-side rendering) and updates the DOM
 2. The browser responds to the change by updating the UI
 3. Any cleanup for effects from the previous render are performed
 4. New effects for the current render are performed
 
+### Dependencies
+
+- The second argument to useEffect is a dependency array that lets you specify when you want the hook to run
+- The hook will run again anytime the value of a dependency changes
+- **NOTE**: It is possible to get stuck in an infinite loop if the effect hook updates a value in the dependency array
+
+```
+// will run every time the value of user.firstName changes
+useEffect(() => {
+  document.title = `${user.firstName}'s Home Page`;
+}, [user.firstName]);
+
+// infinite loop because it runs every time count gets updated
+useEffect(() => {
+  setCount(count + 1);
+}, [count]);
+```
+
+### Data Fetching
+Apologies for the demo issues on this one. Here is a screen recording of what the the UI looks like when the schedule-api is up and running--if you want to try it yourself then clone this repo and make sure `<Appointment />` is being called in your `App.jsx` file: 
+
+https://user-images.githubusercontent.com/38962736/142144645-1199b95d-def3-437f-92ec-b68e08508aab.mp4
+
+
 ## Helpful Links
 
 - [React Hook Rules](https://reactjs.org/docs/hooks-rules.html)
 - [Wikipedia: Side Effect](<https://en.wikipedia.org/wiki/Side_effect_(computer_science)>)
-- [useEffectFlow Slide](https://docs.google.com/presentation/d/1OasEv9j7gNeECgEZTyqWlyyujXn52NMZqfbzMOB4_ws/edit#slide=id.g193b6ff73d_0_33)
 - [React Developer Tools Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 - [useEffect--React Docs](https://reactjs.org/docs/hooks-effect.html)
