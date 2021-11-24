@@ -17,3 +17,6 @@ A UI display of todos that we should be able to check off when we compete a task
 - App
     - Form(addTodo)
     - TodoList/Items(task, done, updateTodo, deleteTodo)
+
+## Wireframe
+![Screenshot from 2021-11-23 19-44-16](https://user-images.githubusercontent.com/38962736/143171273-59eee890-06d8-4228-be95-c03de65b8606.png)
