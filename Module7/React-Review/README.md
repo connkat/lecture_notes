@@ -7,8 +7,8 @@
 - [x] Handling state
 - [x] Side effects and ajax
 - [x] Custom hooks
-- [] Cleanup discussion --likely on Thursday
-- [] CORS
+- [] Cleanup discussion --likely on Thursday--> We'll get more into this Thursday
+- [] CORS -- We'll get more into this Thursday
 
 ## Trouble with React
 
@@ -59,7 +59,7 @@ Express can be used as an API server, like the scheduler-api.
 
 ```
 
-### Custom Hooks
+## Custom Hooks
 
 On paper they seem scary, but really we are just moving them out of our components and into their own file. Let's sat you are calling your `useState` from App.js like this:
 
@@ -109,5 +109,4 @@ function App() {
 ```
 
 ## Helpful Links
-
 - (understanding CORS)[https://medium.com/@baphemot/understanding-cors-18ad6b478e2b]
