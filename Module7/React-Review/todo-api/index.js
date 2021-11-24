@@ -16,7 +16,7 @@ const todos = [
   { id: 3, task: "wash dishes", done: true },
 ];
 
-// get all of the toods
+// get all of the todos
 app.get("/api/todos", (req, res) => {
   res.json(todos);
 });

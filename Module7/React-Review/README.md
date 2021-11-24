@@ -1,3 +1,10 @@
+# React Review
+### Tech issues and time stamps on the new video recording
+
+So this lecture ran a bit long, and I had some technical difficulties that ended up erasing the zoom recording. So after we finished lecture, I went and re-recorded the entire thing so that you would have a demo to check back on if needed. For those who had to leave at the 2hour mark in the lesson, you should find the last parts of the lecture (1- creating the addTodoForm and 2- creating a custom hook) around the 1 hour mark of this recording.
+
+-[lecture recording(redux)](https://vimeo.com/649394399/19055ad99a) -[notes](https://github.com/connkat/lecture_notes/tree/master/Module7/React-Review)
+
 ## Objectives
 
 - [x] Run through server
@@ -107,6 +114,8 @@ function App() {
     const {updateSomething} = useSomethingData();
 }
 ```
-
 ## Helpful Links
-- (understanding CORS)[https://medium.com/@baphemot/understanding-cors-18ad6b478e2b]
+
+- [understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
+- [Custom Hooks (React Docs)](https://reactjs.org/docs/hooks-custom.html)
+- [Creating a custom hook walkthrough](https://medium.com/@svsh227/create-and-use-the-custom-hook-in-react-app-from-scratch-74801aafb89d)
