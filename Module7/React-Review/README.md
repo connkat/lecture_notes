@@ -120,3 +120,5 @@ function App() {
 - [understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
 - [Custom Hooks (React Docs)](https://reactjs.org/docs/hooks-custom.html)
 - [Creating a custom hook walkthrough](https://medium.com/@svsh227/create-and-use-the-custom-hook-in-react-app-from-scratch-74801aafb89d)
+- [React setState() with prevState and Object Spread Operator](https://www.rockyourcode.com/react-set-state-with-prev-state-and-object-spread-operator/)
+- [React useEffect cleanup: How and when to use it](https://dev.to/otamnitram/react-useeffect-cleanup-how-and-when-to-use-it-2hbm)
