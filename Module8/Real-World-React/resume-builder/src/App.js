@@ -4,26 +4,30 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
+import ProjectsContextProvider from "./contexts/ProjectsContext";
+
 //styling
 import "./App.css";
-// import ProjectsContextProvider from "./contexts/ProjectsContext";
+import ProjectsWithInput from "./pages/ProjectsWithInput";
 
 const projects = [];
 
 function App() {
   return (
     <div className="App">
-      {/* <ProjectsContextProvider> */}
+      <ProjectsContextProvider>
         <Router>
           <Routes>
             {/* <Switch > */}
             <Route exact path="/" element={<Home projects={projects} />} />
-            {/* <Route exact path="/" component={Home}></Route> */}
+            <Route exact path="/" component={Home}></Route>
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/projects" element={<Projects />} />
+            <Route exact path="/projects-with-input" element={<ProjectsWithInput />} />
+
           </Routes>
         </Router>
-      {/* </ProjectsContextProvider> */}
+      </ProjectsContextProvider>
     </div>
   );
 }

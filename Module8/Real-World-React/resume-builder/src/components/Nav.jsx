@@ -17,11 +17,14 @@ function Nav() {
         <StyledLi>
           <Link to="/">Home</Link>
         </StyledLi>
+        <StyledLi color="red">
+          <Link to="/contact">Contact</Link>
+        </StyledLi>
         <StyledLi color="green">
           <Link to="/projects">Projects</Link>
         </StyledLi>
-        <StyledLi color="red">
-          <Link to="/contact">Contact</Link>
+        <StyledLi color="purple">
+          <Link to="/projects-with-input">Projects With Input</Link>
         </StyledLi>
       </ul>
     </StyledDiv>

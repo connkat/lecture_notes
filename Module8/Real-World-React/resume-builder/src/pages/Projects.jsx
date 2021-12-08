@@ -5,12 +5,7 @@ import Title from "../components/Title";
 import Nav from "../components/Nav";
 
 function Projects() {
-//   const { projects } = useContext(ProjectsContext);
-
-const projects = [
-        { title: "tinyApp", stack: "EJS, HTML" },
-        { title: "tweeter", stack: "CSS, JQUERY" },
-      ];
+  const { projects } = useContext(ProjectsContext);
 
   return (
     <div className="Projects">
