@@ -1,6 +1,10 @@
 # Module8W21 - Real World React
 
-This is the end of React for now! Although there is definitely a learning curve, you can now see how powerful of a tool React is when developing projects.
+This is the end of React for now! Although there is definitely a learning curve, you can now see how powerful of a tool React is when developing projects. We covered A LOT of ground in this lecture--the take away is that because React is so powerful/popular, there are tonnes of libraries and features built on top of it. Using React is like finding the secret path in MarioKart that lets you skip through the entire level. 
+
+- [lecture recording](https://vimeo.com/654386481/26d027581f)
+- [notes](https://github.com/connkat/lecture_notes/tree/master/Module8/Real-World-React)
+
 
 ## TODO
 
