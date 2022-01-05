@@ -1,0 +1,2 @@
+class Dragonball < ApplicationRecord
+end
