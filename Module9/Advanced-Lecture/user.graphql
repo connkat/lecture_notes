@@ -1,0 +1,104 @@
+interface User {
+    id: String!
+    firstName: String
+    age: Number
+    isActive: Boolean
+    Hobbies: [Hobby]
+}
+
+type Human implements User {
+    id: String!
+    firstName: String
+    age: Number
+    isAlive: Boolean
+    hobbies: [Hobby]
+    favoriteColor: String
+    friends: [Humans]
+}
+
+type Robot implements User {
+    id: String!
+    firstName: String
+    age: Number
+    isRobot: Boolean
+    hobbies: [Hobby]
+    primaryDirective: String
+}
+
+enum Hobby {
+    KNITTING
+    SAILING
+    GUITAR
+}
+
+query FirstNameQuery {
+    human {
+        firstName
+    }
+}
+
+# returns:
+[ "Joe": {
+    "firstName": "Joe"
+    }, 
+"Ali": {
+    "firstName": "Ali"
+    }, 
+"Louis": {
+    "firstName":"Louis"
+}
+]
+
+query FriendQuery {
+    human {
+        friends
+    }
+}
+
+# returns: 
+{ "Joe": {
+    "friends" [
+        {firstName: "Ali"
+        .....}, 
+        {firstName: "Jennifer"
+        ...
+        friends: [
+            {firstName: "Louis"
+            ...}
+        ]}
+    ]
+}}
+
+query FindJoesAgeQuery {
+    user(id:"1") {
+        age
+    }
+}
+
+query GetAgeByIdQuery($id: String!){
+     user(id:$id) {
+        age
+    }
+}
+query GetUsersFirstNameByAge($age: Number) {
+    user(age:$age){
+        firstName
+    }
+}
+
+mutation CreateHobbyForUser($hobby: String!, $id: String!) {
+    createHobbyForUser(hobby: $hobby, id: $id) {
+        user(id:$id): {
+            hobbies: $hobby
+        }
+    }
+}
+
+query GetUserById($id: String!){
+    user(id:$id) {
+        firstName
+        age
+        hobbies
+        isActive
+    }
+}
