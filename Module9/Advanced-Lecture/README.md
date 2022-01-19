@@ -91,6 +91,6 @@ db.collection("users").updateMany({}, { $set: { location: 'CA' } });
 
 
 ## Helpful Links
-- [](https://www.mongodb.com/developer/article/map-terms-concepts-sql-mongodb/)
-- [](https://github.com/graphql/graphql-spec)
+- [Mapping Terms and Concepts from SQL to MongoDB](https://www.mongodb.com/developer/article/map-terms-concepts-sql-mongodb/)
+- [GraphQL Docs](https://github.com/graphql/graphql-spec)
 - [How to write a simple mutation](https://www.howtographql.com/graphql-js/3-a-simple-mutation/)
