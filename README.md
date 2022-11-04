@@ -1,2 +1,2 @@
 # lecture_notes
-LHL Lecture Notes for flex bootcamp
+Lecture Notes for Lighthouse Labs' flex bootcamp
